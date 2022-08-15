@@ -651,6 +651,7 @@ gap: 30px;
 
 .modal{
     width: 528px;
+    height: 581px;
     min-height: 581px;
     background-color: #ffffff;
     border-radius: 4px;
@@ -692,7 +693,7 @@ gap: 30px;
     margin-bottom: 12px;
 }
 
-.modal-form {
+.modal-lable {
     font-weight: 400;
     font-size: 12px;
     line-height: calc(14 / 12);
@@ -745,7 +746,7 @@ gap: 30px;
     padding: 12px 16px;
     cursor: pointer;
     outline: transparent;
-    margin-bottom: 20px;
+    display: block;
 }
 
 .modal-text:focus{
@@ -767,8 +768,8 @@ gap: 30px;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
-     color: #757575;
-     margin-bottom: 30px;
+    color: #757575;
+    justify-content: center;
 }
 .chek-lable span{
     width: 16px;
@@ -788,8 +789,14 @@ gap: 30px;
     text-decoration-line: underline;
     color: #2196F3;}
 
+.modal-coment{margin-bottom: 20px;}
+
 .icon-che{
     fill: transparent;
+}
+
+.modal-policy{
+    margin-bottom: 30px;
 }
 
 
